@@ -1,0 +1,7 @@
+Set Local Variables
+Set User Variables -- Veriables which end user may change, such as skip room
+Enumerate Rooms -{Get Rooms within Heating Panel}
+Get Temerature Setpoint per Room 
+Get currentTemperature per room
+Evaluate greatest error -- used to set room to heat mode. --errorRoomID
+Control Heating Contoller via PID for errorRoomID
